@@ -22,7 +22,7 @@ class conf extends CModule {
         }
 
         $this->MODULE_NAME = 'Настройки сайта';
-        $this->MODULE_DESCRIPTION = '';
+        $this->MODULE_DESCRIPTION = 'Актуальная версия всегда доступна на <a href="https://github.com/kudin/bitrix-modules-conf" target="_blank">https://github.com/kudin/bitrix-modules-conf</a>';
     }
 
     public function DoInstall() {
