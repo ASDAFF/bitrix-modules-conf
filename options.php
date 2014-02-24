@@ -1,8 +1,4 @@
-<? 
-/*  Поле description в таблице b_option к сожалению после 14той версии не поддерживается штатным api ... 
-    есть опасение что в следующих версиях его вообще грохнут нахер
-    поэтому храню описания своих полей немного через жопу :(            */
-
+<?php
 $module_name = 'conf'; 
 $res = $DB->Query('SELECT * FROM `b_option` WHERE `MODULE_ID` = "' . $module_name . '_descriptions"');
 while ($option = $res->Fetch())
